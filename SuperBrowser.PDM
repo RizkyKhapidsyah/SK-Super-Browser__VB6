@@ -1,0 +1,99 @@
+[Root]
+Most Recent Package=SuperBrowser
+
+
+[Package|SuperBrowser|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\superbrowser
+
+[Package|SuperBrowser|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SuperBrowser|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SuperBrowser|Files Found]
+
+[Package|SuperBrowser|Files Released]
+
+[Package|SuperBrowser|Missing Dependency Information]
+
+[Package|SuperBrowser|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\COMCT332.OCX=
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=
+
+[Package|SuperBrowser|Files Added]
+
+[Package|SuperBrowser|Files Removed]
+
+[Package|SuperBrowser|Files In Project]
+C:\WINDOWS\Desktop\Bryan\visual basic\projects\web browser 7\SuperBrowser.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCT332.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|SuperBrowser|Configure Registry Files]
+Applicable=No
+
+[Package|SuperBrowser|Configure Remote Servers]
+Applicable=No
+
+[Package|SuperBrowser|Install Locations]
+C:\WINDOWS\Desktop\Bryan\visual basic\projects\web browser 7\SuperBrowser.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|SuperBrowser|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\Bryan\visual basic\projects\web browser 7\SuperBrowser.exe=Yes
+
+[Package|SuperBrowser|Distribution]
+Type=single
+Size=
+Title=SuperBrowser
+
+[Package|SuperBrowser|IconGroups]
+Group0=$(Start Menu)
+PrivateGroup0=True
+Parent0=
+
+[Package|SuperBrowser|$(Start Menu)]
+Icon1=SuperBrowser.exe
+Title1=SuperBrowser
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|SuperBrowser|Package]
+PackageFolder=C:\WINDOWS\Desktop\superbrowser
+ProjectFolder=C:\WINDOWS\Desktop\Bryan\visual basic\projects\web browser 7
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\superbrowser\setup.exe
+File2=C:\WINDOWS\Desktop\superbrowser\Setup.Lst
+File3=C:\WINDOWS\Desktop\superbrowser\SuperBrowser.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
